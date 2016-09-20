@@ -17,7 +17,6 @@ public abstract class ProgrammingCourse {
     private String prerequisites;
     private double credits;
     
-    
     public String getPrerequisites() {
         return prerequisites;
     }

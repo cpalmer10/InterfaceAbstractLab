@@ -10,11 +10,11 @@ package lab2;
  * @author Chris
  */
 public interface ProgrammingCourse {
-    public String getCourseNumber();
-    public void setCourseNumber(String courseNumber);
-    public String getPrerequisites();
-    public void setPrerequisites(String prerequisites);
-    public void setCredits(double credits);
-    public double getCredits();
+    public abstract String getCourseNumber();
+    public abstract void setCourseNumber(String courseNumber);
+    public abstract String getPrerequisites();
+    public abstract void setPrerequisites(String prerequisites);
+    public abstract void setCredits(double credits);
+    public abstract double getCredits();
     
 }
